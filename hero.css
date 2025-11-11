@@ -24,7 +24,7 @@ header {
     color: #ffffff;
 }
 
-/* Бургер-иконка */
+
 .burger-icon {
     display: none;
     flex-direction: column;
@@ -40,7 +40,7 @@ header {
     transition: 0.3s;
 }
 
-/* Бургер-меню */
+
 .burger-menu {
     display: none;
     position: fixed;
@@ -72,7 +72,7 @@ header {
 }
 
 
-/* Обычное меню для десктопа */
+
 .desktop-nav {
     display: flex;
 }
@@ -193,25 +193,25 @@ header {
     height: 150px;
 }
 
-/* Медиа-запрос для мобилки */
+
 @media (max-width: 768px) {
     .hero title{
           order: 1;
     }
     
     .hero-bottom {
-        order: 2; /* заголовок первым */
+        order: 2; 
     }
     
     .hero-top {
-        order: 3; /* подзаголовок вторым */
+        order: 3; 
     }
 
      .container {
-        padding: 0 15px; /* ← БОЛЬШЕ ОТСТУПЫ НА МОБИЛКЕ */
+        padding: 0 15px; 
     }
     .burger-icon {
-        display: flex; /* Показать бургер */
+        display: flex; 
     }
 
     .desktop-nav,
@@ -324,4 +324,5 @@ header {
     font-size: 16px; 
     transition: color 0.3s; 
 }
+
 }
