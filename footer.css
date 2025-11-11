@@ -1,0 +1,236 @@
+.footer {
+    background-color: #191918;
+    color: #FFFFFF;
+    padding: 80px 0 120px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Колонка 1 - Лого */
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    max-width: 200px;
+}
+
+/* Колонка 2 - Навигация */
+.footer-nav {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #8B7355;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    margin-bottom: 12px;
+    transition: color 0.3s ease;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: #FFFFFF;
+}
+
+/* Колонка 3 - Контакты */
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #8B7355;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.contact-text {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Колонка 4 - Кнопка */
+.footer-btn {
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.12);
+            border: 1px;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background-color 0.3s;
+}
+
+.footer-btn:hover {
+    background: transparent;
+}
+
+/* Нижняя часть футера */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-policy {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-policy:hover {
+    color: #FFFFFF;
+}
+
+
+.footer-bg-text {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    font-size: 150px;
+    font-weight: 900;
+    
+    color: rgb(31, 31, 31);
+    text-align: center;
+    line-height: 1;
+    padding-bottom: 20px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 60px 0 80px 0;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        margin-bottom: 40px;
+        text-align: center; 
+    }
+    
+    .footer-column {
+        align-items: center; 
+    }
+    
+    .footer-logo {
+        display: flex;
+        justify-content: center; 
+    }
+    
+    .footer-nav {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center; 
+    }
+    
+    .nav-block {
+        align-items: center; 
+    }
+    
+    .nav-title {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    
+    .nav-link {
+        margin-bottom: 10px;
+        font-size: 13px;
+        text-align: center; 
+    }
+    
+    .footer-contacts {
+        gap: 15px;
+        align-items: center; 
+    }
+    
+    .contact-item {
+        align-items: center; 
+        text-align: center; 
+    }
+    
+    .contact-title {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    
+    .contact-text {
+        font-size: 13px;
+    }
+    
+    .footer-btn {
+        height: 45px;
+        font-size: 14px;
+        max-width: 200px;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 25px 0;
+    }
+    
+    .footer-copyright,
+    .footer-policy {
+        font-size: 13px;
+    }
+    
+    .footer-bg-text {
+        font-size: 50px;
+        bottom: -20px;
+    }
+    
+    .logo-img {
+        height: 35px;
+    }
+}

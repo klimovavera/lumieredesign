@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumiere Design - Дизайн интерьера</title>
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="cases.css">
+    <link rel="stylesheet" href="cta.css">
+    <link rel="stylesheet" href="steps.css">
+    <link rel="stylesheet" href="footer.css">
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'SF Pro Display', sans-serif;;
+        }
+        
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SF-Pro-Display-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SF-Pro-Display-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+        body {
+           
+            color: #333;
+            line-height: 1.2;
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+        }
+        
+        .container {
+            width: 95%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }     
+       
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            nav ul {
+                gap: 15px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+           
+            
+            .stats {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="first-screen">
+       <header>
+    <div class="container header-container">
+        <div class="logo">
+            <img src="Vector (41).svg" alt="Lumiere Design">
+        </div>
+
+        <!-- Бургер-иконка -->
+        <div class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Навигация и кнопка в бургер-меню -->
+        <div class="burger-menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#steps">Этапы работы</a></li>
+                    <li><a href="#footer">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="btn">Заказать звонок</button>
+        </div>
+
+        <!-- Обычное меню для десктопа -->
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#steps">Этапы работы</a></li>
+                <li><a href="#footer">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <button class="btn">Заказать звонок</button>
+        </div>
+    </div>
+</header>
+    
+
+
+
+
+
+        <!-- 1 БЛОК -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="herotextp">
+                        <div class="hero-top">
+                            <p>Дизайн интерьера, который повышает качество жизни</p>  
+                        </div>
+                                <div class="hero-bottom">        
+                            <p>Создаем не просто красивые пространства, а интерьеры, где каждая деталь работает на ваш комфорт. 120+ реализованных проектов в Москве и области.</p>
+                       </div>
+                       
+                    </div>
+                    <div class="title"><h1>LUMIERE DESIGN</h1></div>
+                    
+                    
+                        
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-number">3650 м²</div>
+                                <div class="stat-text">– общая площадь спроектированных нами интерьеров.</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">9 лет</div>
+                                <div class="stat-text">на рынке – работаем с 2015 года.</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">98%</div>
+                                <div class="stat-text">клиентов рекомендуют нас – по данным опроса 2024 года.</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">14 дней</div>
+                                <div class="stat-text">– минимальный срок разработки дизайн-проекта.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="services" id="services">
+            <div class="container">
+                <div class="services-header">
+                    <h2 class="services-title">УСЛУГИ</h2>
+                    <p class="services-subtitle">Lumiere Design – это команда из 8 дизайнеров и архитекторов. 
+                        Наш подход – это баланс эстетики и функциональности.</p>
+                </div>
+        
+                <!-- 2 БЛОК-->
+                <div class="services-grid">
+                    <!-- 1 -->
+                    <div class="service-card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('Group\ 3\ \(3\).png') center/cover">
+                        <div class="card-tags">
+                            <span class="tag">от 1 мес</span>
+                            <span class="tag">от 3 500 ₽/м²</span>
+                        </div>
+                        <h3 class="card-title">Дизайн-проект под ключ</h3>
+                        <p class="card-description">Не просто красивые картинки, а 
+                            продуманный до мелочей проект. Мы сделаем обмеры, разработаем планировку, подберем материалы и мебель, 
+                            а после — поможем воплотить все в жизнь с авторским надзором.</p>
+                    </div>
+        
+                    <!--  2 -->
+                    <div class="service-card" style="background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('2\ \(12\).png') center/cover">
+                        <div class="card-tags">
+                            <span class="tag">от 2 мес</span>
+                            <span class="tag">от 4 000 ₽/м²</span>
+                        </div>
+                        <h3 class="card-title">Дизайн коммерческих помещений</h3>
+                        <p class="card-description">Кафе, офис или магазин — пространство должно привлекать клиентов и повышать эффективность.
+                             Мы создаем продуманные интерьеры с учетом специфики бизнеса, потоков людей и корпоративного стиля. </p>
+                    </div>
+        
+                    <!-- 3 -->
+                    <div class="service-card" style="background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('3\ \(3\).png') center/cover">
+                        <div class="card-tags">
+                            <span class="tag">от 7 дней</span>
+                            <span class="tag">от 70 000 ₽</span>
+                        </div>
+                        <h3 class="card-title">Декорирование и стилизация</h3>
+                        <p class="card-description">Уже есть ремонт, но не хватает души? Добавим акценты, подберем текстиль, освещение и аксессуары, чтобы интерьер заиграл. 
+                            Создадим уютную атмосферу или стильный лаконичный look — в зависимости от вашего вкуса.</p>
+                    </div>
+        
+                    <!-- 4 -->
+                    <div class="service-card" style="background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('4\ \(3\).png') center/cover">
+                        <div class="card-tags">
+                            <span class="tag">от 5 дней</span>
+                            <span class="tag">от 25 000 ₽</span>
+                        </div>
+                        <h3 class="card-title">3D-визуализация интерьера</h3>
+                        <p class="card-description">Чтобы вы могли «прогуляться» по квартире еще до ремонта, мы создадим фотореалистичную 3D-модель. 
+                            Это исключит неожиданности и поможет точно понять, как будет выглядеть результат.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ <!-- 3 БЛОК -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+               
+                <div class="portfolio-header">
+                    <h2 class="portfolio-title">ПОРТФОЛИО</h2>
+                    <p class="portfolio-subtitle">Каждый интерьер — это история. Мы создаем не просто красивые пространства, а места, где комфортно жить, работать и отдыхать.</p>
+                </div>
+        
+               
+                <div class="portfolio-scroll">
+                    <div class="portfolio-grid">
+                        <!--1 -->
+                        <div class="portfolio-card" style="background:url('1\ \(6\).png') center/cover">
+                            <div class="card-content">
+                                <span class="card-city">Москва</span>
+                                <h3 class="card-title">Квартира в стиле лофт</h3>
+                                <div class="card-tags">
+                                    <span class="tag">85 м²</span>
+                                    <span class="tag">2 месяца</span>
+                                </div>
+                                <ul class="card-features">
+                                    <li>Открытая планировка</li>
+                                    <li>Индустриальные элементы</li>
+                                    <li>Панорамные окна</li>
+                                    <li>Smart-освещение</li>
+                                </ul>
+                                <button class="card-btn">Подробнее</button>
+                            </div>
+                        </div>
+        
+                        <!--  2 -->
+                        <div class="portfolio-card"  style="background:url('2\ \(11\).png') center/cover">
+                            <div class="card-content">
+                                <span class="card-city">Подмосковье</span>
+                                <h3 class="card-title">Загородный дом</h3>
+                                <div class="card-tags">
+                                    <span class="tag">150 м²</span>
+                                    <span class="tag">4 месяца</span>
+                                </div>
+                                <ul class="card-features">
+                                    <li>Скандинавский стиль</li>
+                                    <li>Экологичные материалы</li>
+                                    <li>Каминная зона</li>
+                                    <li>Терраса с видом на лес</li>
+                                </ul>
+                                <button class="card-btn">Подробнее</button>
+                            </div>
+                        </div>
+        
+                        <!-- 3 -->
+                        <div class="portfolio-card"  style="background:url('3\ \(2\).png') center/cover">
+                            <div class="card-content">
+                                <span class="card-city">Москва-Сити</span>
+                                <h3 class="card-title">Офис IT-компании</h3>
+                                <div class="card-tags">
+                                    <span class="tag">200 м²</span>
+                                    <span class="tag">3 месяца</span>
+                                </div>
+                                <ul class="card-features">
+                                    <li>Open-space пространство</li>
+                                    <li>Переговорные комнаты</li>
+                                    <li>Зона отдыха</li>
+                                    <li>Современное освещение</li>
+                                </ul>
+                                <button class="card-btn">Подробнее</button>
+                            </div>
+                        </div>
+        
+                        <!-- 4 -->
+                        <div class="portfolio-card"  style="background:url('4\ \(2\).png') center/cover">
+                            <div class="card-content">
+                                <span class="card-city">Екатеринбург</span>
+                                <h3 class="card-title">Кофейня "Botanica"</h3>
+                                <div class="card-tags">
+                                    <span class="tag">65 м²</span>
+                                    <span class="tag">2.5 месяца</span>
+                                </div>
+                                <ul class="card-features">
+                                    <li>Легпные тона</li>
+                                    <li>Молдинги и карнизы</li>
+                                    <li>Паркетный пол</li>
+                                    <li>Хрустальные люстры</li>
+                                </ul>
+                                <button class="card-btn">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+              
+                <div class="portfolio-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="steps" id="steps">
+            <div class="container">
+               
+                <div class="steps-header">
+                    <div class="steps-subtitle">Как мы создаем ваш идеальный интерьер пошагово - от первой встречи до сдачи проекта – прозрачно и без стресса</div>
+                    <div class="steps-title">ЭТАПЫ РАБОТЫ</div>
+                </div>
+        
+             
+                <div class="accordion">
+                    <!-- Этап 1 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <div class="step-number">01</div>
+                            <div class="step-title">Консультация и замеры</div>
+                            <div class="accordion-icon">+</div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-text">
+                                <p>Знакомство, обсуждение пожеланий, бюджетов и сроков. Техническое обследование помещения, замеры и фотофиксация. Составление технического задания.</p>
+                                <ul>
+                                    <li>Выезд дизайнера на объект</li>
+                                    <li>Обмерочный чертеж</li>
+                                    <li>Фотофиксация состояния</li>
+                                    <li>Составление ТЗ</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Этап 2 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <div class="step-number">02</div>
+                            <div class="step-title">Концепция и планировка</div>
+                            <div class="accordion-icon">+</div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-text">
+                                <p>Разработка концепции интерьера, создание 2-3 вариантов планировки с расстановкой мебели и оборудования. Подбор референсов и стилевых решений.</p>
+                                <ul>
+                                    <li>Разработка планировочных решений</li>
+                                    <li>Концепция интерьера</li>
+                                    <li>Подбор референсов</li>
+                                    <li>Утверждение концепции</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Этап 3 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <div class="step-number">03</div>
+                            <div class="step-title">Визуализация</div>
+                            <div class="accordion-icon">+</div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-text">
+                                <p>Создание 3D-визуализаций будущего интерьера с детальной проработкой материалов, цветов и освещения. Фотореалистичные изображения всех помещений.</p>
+                                <ul>
+                                    <li>3D визуализация помещений</li>
+                                    <li>Подбор материалов и цветов</li>
+                                    <li>Проработка освещения</li>
+                                    <li>Корректировки по желанию клиента</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Этап 4 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <div class="step-number">04</div>
+                            <div class="step-title">Рабочая документация</div>
+                            <div class="accordion-icon">+</div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-text">
+                                <p>Подготовка чертежей и технической документации для строителей, включая схемы электрики, сантехники и отделки. Все необходимые чертежи для реализации проекта.</p>
+                                <ul>
+                                    <li>Рабочие чертежи</li>
+                                    <li>Схемы электрики и освещения</li>
+                                    <li>Схемы сантехнических разводок</li>
+                                    <li>Ведомости отделочных материалов</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Этап 5 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <div class="step-number">05</div>
+                            <div class="step-title">Реализация</div>
+                            <div class="accordion-icon">+</div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-text">
+                                <p>Авторский надзор и сопровождение проекта на всех этапах реализации, подбор материалов и мебели. Контроль качества работ и соблюдения сроков.</p>
+                                <ul>
+                                    <li>Авторский надзор</li>
+                                    <li>Подбор материалов и мебели</li>
+                                    <li>Контроль качества работ</li>
+                                    <li>Сдача объекта</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" id="cta">
+            <div class="container">
+                <div class="cta-wrapper">
+                    
+                    <div class="cta-image">
+                        <img src="Rectangle 11.png" alt="Дизайн интерьера">
+                    </div>
+        
+                   
+                    <div class="cta-content">
+                        <div class="cta-text">
+                            <div class="cta-title">Готовы начать проект?</div>
+                            <div class="cta-subtitle">Оставьте заявку и получите бесплатную консультацию дизайнера и 3 варианта планировки вашего помещения</div>
+                        </div>
+        
+                        <form class="cta-form">
+                            <div class="form-group">
+                                <input type="text" class="form-input" placeholder="Имя и фамилия" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-input" placeholder="Номер телефона" required>
+                            </div>
+                            <button type="submit" class="cta-btn">Оставить заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer" id="footer">
+            <div class="container">
+             
+                <div class="footer-content">
+                    <!-- Колонка 1  -->
+                    <div class="footer-column">
+                        <div class="footer-logo">
+                            <img src="Vector (41).svg" alt="Lumiere Design" class="logo-img">
+                        </div>
+                    </div>
+        
+                    <!-- Колонка 2 -->
+                    <div class="footer-column">
+                        <div class="footer-nav">
+                            <div class="nav-block">
+                                <a href="#" class="nav-link">Главная</a>
+                                <a href="#services" class="nav-link">Услуги</a>
+                                <a href="#portfolio" class="nav-link">Портфолио</a>
+                                <a href="#steps" class="nav-link">Этапы работы</a>
+                            </div>
+                            <div class="nav-block">
+                                <a href="#" class="nav-link">Дизайн квартир</a>
+                                <a href="#" class="nav-link">Дизайн домов</a>
+                                <a href="#" class="nav-link">Коммерческий дизайн</a>
+                                <a href="#" class="nav-link">Авторский надзор</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Колонка 3 -->
+                    <div class="footer-column">
+                        <div class="footer-contacts">
+                            <div class="contact-item">
+                                <div class="contact-text">Москва, ул. Дизайнеров, 15</div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-text">+7 (495) 123-45-67</div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-text">info@lumieredesign.ru</div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Колонка 4  -->
+                    <div class="footer-column">
+                        <button class="footer-btn">Заказать звонок</button>
+                    </div>
+                </div>
+        
+                <div class="footer-bottom">
+                    <div class="footer-copyright">© 2025 Lumiere Design</div>
+                    <a href="#" class="footer-policy">Политика конфиденциальности</a>
+                </div>
+            </div>
+        
+            <div class="footer-bg-text">LUMIERE DESIGN</div>
+        </footer>
+        
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const accordionItems = document.querySelectorAll('.accordion-item');
+    
+    accordionItems.forEach(item => {
+        const header = item.querySelector('.accordion-header');
+        
+        header.addEventListener('click', () => {
+           
+            accordionItems.forEach(otherItem => {
+                if (otherItem !== item) {
+                    otherItem.classList.remove('active');
+                }
+            });
+            
+          
+            item.classList.toggle('active');
+        });
+    });
+});
+const burgerIcon = document.querySelector('.burger-icon');
+if (burgerIcon) {
+    burgerIcon.addEventListener('click', function() {
+        document.querySelector('.burger-menu').classList.toggle('active');
+    });
+}
+
+</script>
+</div>
+</body>
+</html>
