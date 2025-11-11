@@ -114,17 +114,17 @@
     .cta-image {
         flex: 0 0 300px;
         width: 100%;
-        border-radius: 10px 10px 0 0; /* ← ДОБАВЬ ЭТУ СТРОКУ */
+        border-radius: 10px 10px 0 0; 
     }
     
     .cta-image img {
-        border-radius: 10px 10px 0 0; /* ← И ЭТУ СТРОКУ */
+        border-radius: 10px 10px 0 0; 
     }
     
     .cta-content {
         flex: 1;
         padding: 40px 30px;
-        border-radius: 0 0 10px 10px; /* ← ДОБАВЬ ДЛЯ КОНТЕНТА */
+        border-radius: 0 0 10px 10px; 
     }
     
     .cta-content {
@@ -141,4 +141,5 @@
     .cta-title {
         font-size: 28px;
     }
+
 }
